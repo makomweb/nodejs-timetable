@@ -9,6 +9,8 @@
   "author": "Martin Komischke",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.1.4"
   }
 }
