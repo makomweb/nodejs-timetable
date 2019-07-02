@@ -4,7 +4,7 @@
   "description": "Provide a timetable as iCal",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: not test specified\" && exit 1"
   },
   "author": "Martin Komischke",
   "license": "ISC",
