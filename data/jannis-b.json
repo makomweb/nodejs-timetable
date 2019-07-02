@@ -1,0 +1,98 @@
+{
+  "BlockStartTimes": [ "08:00:00", "10:00:00", "12:00:00", "13:45:00" ],
+  "Weekdays": [
+    {
+      "Name": "Monday",
+      "Blocks": [
+        {
+          "Name": "Chemie",
+          "Begin": "8:00:00"
+        },
+        {
+          "Name": "Mathe",
+          "Begin": "10:00:00"
+        },
+        {
+          "Name": "Deutsch",
+          "Begin": "12:00:00"
+        },
+        {
+          "Name": "Geschichte",
+          "Begin": "13:45:00"
+        }
+      ]
+    },
+    {
+      "Name": "Tuesday",
+      "Blocks": [
+        {
+          "Name": "Französisch",
+          "Begin": "08:00:00"
+        },
+        {
+          "Name": "Englisch",
+          "Begin": "10:00:00"
+        },
+        {
+          "Name": "Geographie",
+          "Begin": "12:00:00"
+        }
+      ]
+    },
+    {
+      "Name": "Wednesday",
+      "Blocks": [
+        {
+          "Name": "Chemie/Physik",
+          "Begin": "08:00:00"
+        },
+        {
+          "Name": "Französisch",
+          "Begin": "10:00:00"
+        },
+        {
+          "Name": "Sport",
+          "Begin": "12:00:00"
+        },
+        {
+          "Name": "Kunst",
+          "Begin": "13:45:00"
+        }
+      ]
+    },
+    {
+      "Name": "Thursday",
+      "Blocks": [
+        {
+          "Name": "Musik",
+          "Begin": "08:00:00"
+        },
+        {
+          "Name": "Mathe",
+          "Begin": "10:00:00"
+        },
+        {
+          "Name": "Deutsch",
+          "Begin": "12:00:00"
+        }
+      ]
+    },
+    {
+      "Name": "Friday",
+      "Blocks": [
+        {
+          "Name": "Sport",
+          "Begin": "08:00:00"
+        },
+        {
+          "Name": "Biologie",
+          "Begin": "10:00:00"
+        },
+        {
+          "Name": "Ethik",
+          "Begin": "12:00:00"
+        }
+      ]
+    }
+  ]
+}
