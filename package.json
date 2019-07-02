@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-timetable",
+  "version": "1.0.0",
+  "description": "Provide a timetable as iCal",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Martin Komischke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
