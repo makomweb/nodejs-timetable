@@ -8,25 +8,24 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.get('/toni.json', function(req, res) {
-  const toni = timetable.toni();
-  res.send(toni);
+app.get('/achard-6-c.json', function(req, res) {
+  const achard_6_c = timetable.achard_6_c();
+  res.send(achard_6_c);
 });
 
-app.get('/toni.ical', function(req, res) {
-  const toni = timetable.toni();
+app.get('/achard-6-c.ical', function(req, res) {
+  const achard_6_c = timetable.achard_6_c();
   const cal = ical({
     domain: 'emkay',
     prodId: { company: 'emkay.org', product: 'timetable-ical' },
     name: 'Timetable iCal', 
     timezone: 'Europe/Berlin'
   });
-  
-  cal.events(events.weekday(toni, 0));
-  cal.events(events.weekday(toni, 1));
-  cal.events(events.weekday(toni, 2));
-  cal.events(events.weekday(toni, 3));
-  cal.events(events.weekday(toni, 4));
+
+  // iterate over the 5 days ( 0 = Monday ... 4 = Friday )
+  for (var i = 0; i < 5; i++) {
+    cal.events(events.weekday(achard_6_c, i));
+  }  
   
   cal.serve(res);
 });
