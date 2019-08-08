@@ -1,20 +1,8 @@
-const toni = require('../data/toni.json');
-const jannis_a = require('../data/jannis-a.json');
-const jannis_b = require('../data/jannis-b.json');
-const moritz = require('../data/moritz.json');
+const fs = require('fs');
 
-exports.toni = function() {
-    return toni;
+exports.toni = function() {    
+    const content = fs.readFileSync('./data/toni.json');
+    return JSON.parse(content);
 }
 
-exports.jannis_a = function() {
-    return jannis_a;
-}
-
-exports.jannis_b = function() {
-    return jannis_b;
-}
-
-exports.moritz = function() {
-    return moritz;
-}
+// TODO Provide additional functions for further timetable files!
