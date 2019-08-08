@@ -4,10 +4,6 @@ const timetable = require('./timetable');
 const ical = require('ical-generator');
 const events = require('./events');
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
-
 app.get('/achard-6-c.json', function(req, res) {
   const achard_6_c = timetable.achard_6_c();
   res.send(achard_6_c);
