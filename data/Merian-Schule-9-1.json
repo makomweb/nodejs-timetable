@@ -15,32 +15,25 @@
       "Name": "Monday",
       "Blocks": [
         {
-          "Name": "WPU",
-          "Begin": "07:50:00"
+          "Name": "Mathe"
         },
         {
-          "Name": "WPU",
-          "Begin": "08:45:00"
+          "Name": "Mathe"
         },
         {
-          "Name": "Sport",
-          "Begin": "09:50:00"
+          "Name": "Musik"
         },
         {
-          "Name": "Sport",
-          "Begin": "10:45:00"
+          "Name": "Geo"
         },
         {
-          "Name": "Kunst",
-          "Begin": "11:55:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Klassenrat",
-          "Begin": "12:45:00"
+          "Name": "Ethik"
         },
         {
-          "Name": "Bio/Ch/Ph",
-          "Begin": "13:50:00"
+          "Name": "Geschichte"
         }
       ]
     },
@@ -48,28 +41,25 @@
       "Name": "Tuesday",
       "Blocks": [
         {
-          "Name": "Geschichte",
-          "Begin": "07:50:00"
+          "Name": "Englisch"
         },
         {
-          "Name": "Musik",
-          "Begin": "08:45:00"
+          "Name": "Englisch"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "09:50:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "10:45:00"
+          "Name": "Mathe"
         },
         {
-          "Name": "ITG/WAT",
-          "Begin": "11:55:00"
+          "Name": "Sport"
         },
         {
-          "Name": "ITG/WAT",
-          "Begin": "12:45:00"
+          "Name": "Ethik"
+        },
+        {
+          "Name": "Kunst"
         }
       ]
     },
@@ -77,36 +67,25 @@
       "Name": "Wednesday",
       "Blocks": [
         {
-          "Name": "Französisch",
-          "Begin": "07:50:00"
+          "Name": "Physik"
         },
         {
-          "Name": "Englisch",
-          "Begin": "08:45:00"
+          "Name": "Physik"
         },
         {
-          "Name": "Mathematik",
-          "Begin": "09:50:00"
+          "Name": "Geschichte"
         },
         {
-          "Name": "Mathematik",
-          "Begin": "10:45:00"
+          "Name": "Mathe"
         },
         {
-          "Name": "Sport",
-          "Begin": "11:55:00"
+          "Name": "Chemie"
         },
         {
-          "Name": "Ethik",
-          "Begin": "12:45:00"
+          "Name": "Chemie"
         },
         {
-          "Name": "AG",
-          "Begin": "13:50:00"
-        },
-        {
-          "Name": "AG",
-          "Begin": "14:40:00"
+          "Name": "Französisch"
         }
       ]
     },
@@ -114,32 +93,25 @@
       "Name": "Thursday",
       "Blocks": [
         {
-          "Name": "Bio/Ch/Ph",
-          "Begin": "07:50:00"
+          "Name": "Bio"
         },
         {
-          "Name": "Bio/Ch/Ph",
-          "Begin": "08:45:00"
+          "Name": "Bio"
         },
         {
-          "Name": "Französisch",
-          "Begin": "09:50:00"
+          "Name": "Sport"
         },
         {
-          "Name": "Französisch",
-          "Begin": "10:45:00"
+          "Name": "Sport"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "11:55:00"
+          "Name": "Französisch"
         },
         {
-          "Name": "Mathe",
-          "Begin": "12:45:00"
+          "Name": "Kunst"
         },
         {
-          "Name": "Geo",
-          "Begin": "13:50:00"
+          "Name": "Kunst"
         }
       ]
     },
@@ -147,28 +119,22 @@
       "Name": "Friday",
       "Blocks": [
         {
-          "Name": "Englisch",
-          "Begin": "07:50:00"
+          "Name": "Klassenleiterstunde"
         },
         {
-          "Name": "Englisch",
-          "Begin": "08:45:00"
+          "Name": "Französisch"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "09:50:00"
+          "Name": "Englisch"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "10:45:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Mathe",
-          "Begin": "11:55:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Französisch",
-          "Begin": "12:45:00"
+          "Name": "ITG"
         }
       ]
     }
