@@ -124,6 +124,6 @@ app.get('/Siemens-Gymnasium-9-C.ical', function (req, res) {
   cal.serve(res);
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(PORT, function () {
+  console.log(`emkay-ical-app is listening on port ${PORT}!`);
 });
