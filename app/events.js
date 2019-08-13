@@ -7,7 +7,8 @@ exports.weekday = function(timetable, index) {
     const day = helper.getNestedObject(timetable, ['Weekdays'])[index];
     const blocks = helper.getNestedObject(day, ['Blocks']);
     const first = week.firstDayOfWeek(new Date(), 1); // now, 0 = Sunday, 1 = Monday is first day of a week
-    const date = new Date(first.getFullYear(), first.getMonth(), first.getDate()+index);
+    const date = new Date(first.getFullYear(), first.getMonth(), first.getDate() + index);
+    const blockLength = blockLength(timetable);
 
     return blocks.map((block, index, array) => {
 
@@ -16,7 +17,7 @@ exports.weekday = function(timetable, index) {
         const day = date.getDate();
         const startString = `${year}, ${month}, ${day}, ${startTimes[index]}`;        
         const start = new Date(startString);
-        const end = new Date(start.getTime() + 2700000); // + 45 min
+        const end = new Date(start.getTime() + blockLength)
         const subject = block.Name;
 
         return {
@@ -25,4 +26,8 @@ exports.weekday = function(timetable, index) {
             summary: subject
         }
     });
+}
+
+exports.blockLength = function(timetable) {
+    return 2700000; // + 45 min
 }
