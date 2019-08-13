@@ -11,20 +11,13 @@
       "Name": "Monday",
       "Blocks": [
         {
-          "Name": "Deutsch",
-          "Begin": "10:00:00"
+          "Name": "Ma"
         },
         {
-          "Name": "Kunst",
-          "Begin": "12:00:00"
+          "Name": "Sport"
         },
         {
-          "Name": "Biologie",
-          "Begin": "12:00:00"
-        },
-        {
-          "Name": "Ethik",
-          "Begin": "13:45:00"
+          "Name": "Politische Bildung"
         }
       ]
     },
@@ -32,16 +25,13 @@
       "Name": "Tuesday",
       "Blocks": [
         {
-          "Name": "Französisch",
-          "Begin": "08:00:00"
+          "Name": "WPU"
         },
         {
-          "Name": "Chemie/Physik",
-          "Begin": "10:00:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Englisch",
-          "Begin": "12:00:00"
+          "Name": "Französisch"
         }
       ]
     },
@@ -49,16 +39,16 @@
       "Name": "Wednesday",
       "Blocks": [
         {
-          "Name": "Mathe",
-          "Begin": "08:00:00"
+          "Name": "Geo"
         },
         {
-          "Name": "Physik",
-          "Begin": "10:00:00"
+          "Name": "Chemie"
         },
         {
-          "Name": "Sport",
-          "Begin": "12:00:00"
+          "Name": "Französisch"
+        },
+        {
+          "Name": "Physik"
         }
       ]
     },
@@ -66,16 +56,16 @@
       "Name": "Thursday",
       "Blocks": [
         {
-          "Name": "Geschichte",
-          "Begin": "08:00:00"
+          "Name": "Musik"
         },
         {
-          "Name": "Französisch",
-          "Begin": "10:00:00"
+          "Name": "Ethik"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "12:00:00"
+          "Name": "Bio"
+        },
+        {
+          "Name": "Mathe"
         }
       ]
     },
@@ -83,20 +73,16 @@
       "Name": "Friday",
       "Blocks": [
         {
-          "Name": "Geographie",
-          "Begin": "08:00:00"
+          "Name": "WPU"
         },
         {
-          "Name": "Englisch",
-          "Begin": "10:00:00"
+          "Name": "Physik/Chemie"
         },
         {
-          "Name": "Mathe",
-          "Begin": "12:00:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Klassenleiterstunde",
-          "Begin": "13:45:00"
+          "Name": "Englisch"
         }
       ]
     }

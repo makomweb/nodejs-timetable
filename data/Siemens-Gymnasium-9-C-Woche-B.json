@@ -11,20 +11,16 @@
       "Name": "Monday",
       "Blocks": [
         {
-          "Name": "Chemie",
-          "Begin": "8:00:00"
+          "Name": "Englisch"
         },
         {
-          "Name": "Mathe",
-          "Begin": "10:00:00"
+          "Name": "Sport"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "12:00:00"
+          "Name": "Musik"
         },
         {
-          "Name": "Geschichte",
-          "Begin": "13:45:00"
+          "Name": "Politische Bildung"
         }
       ]
     },
@@ -32,16 +28,13 @@
       "Name": "Tuesday",
       "Blocks": [
         {
-          "Name": "Französisch",
-          "Begin": "08:00:00"
+          "Name": "WPU"
         },
         {
-          "Name": "Englisch",
-          "Begin": "10:00:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Geographie",
-          "Begin": "12:00:00"
+          "Name": "Mathe"
         }
       ]
     },
@@ -49,20 +42,13 @@
       "Name": "Wednesday",
       "Blocks": [
         {
-          "Name": "Chemie/Physik",
-          "Begin": "08:00:00"
+          "Name": "Physik/Chemie"
         },
         {
-          "Name": "Französisch",
-          "Begin": "10:00:00"
+          "Name": "Englisch"
         },
         {
-          "Name": "Sport",
-          "Begin": "12:00:00"
-        },
-        {
-          "Name": "Kunst",
-          "Begin": "13:45:00"
+          "Name": "Französisch"
         }
       ]
     },
@@ -70,16 +56,16 @@
       "Name": "Thursday",
       "Blocks": [
         {
-          "Name": "Musik",
-          "Begin": "08:00:00"
+          "Name": "Sport"
         },
         {
-          "Name": "Mathe",
-          "Begin": "10:00:00"
+          "Name": "Deutsch"
         },
         {
-          "Name": "Deutsch",
-          "Begin": "12:00:00"
+          "Name": "Bio"
+        },
+        {
+          "Name": "WPU: Latein"
         }
       ]
     },
@@ -87,16 +73,13 @@
       "Name": "Friday",
       "Blocks": [
         {
-          "Name": "Sport",
-          "Begin": "08:00:00"
+          "Name": "WPU"
         },
         {
-          "Name": "Biologie",
-          "Begin": "10:00:00"
+          "Name": "Mathe"
         },
         {
-          "Name": "Ethik",
-          "Begin": "12:00:00"
+          "Name": "Geschichte"
         }
       ]
     }
