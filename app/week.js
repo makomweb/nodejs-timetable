@@ -16,3 +16,14 @@ exports.firstDayOfWeek = function(dateObject, firstDayOfWeekIndex) {
 
     return firstDayOfWeek;
 }
+
+/*
+Determine if today is an odd week or not.
+https://stackoverflow.com/a/27125580/1468898
+*/
+exports.is_odd = function(today) {
+    const january_first = new Date(today.getFullYear(), 0, 1);
+    const millisecsInDay = 86400000;
+    week = Math.ceil( (((today - january_first) / millisecsInDay) + january_first.getDay() + 1) / 7 );    
+    return week % 2 !== 0;
+}
