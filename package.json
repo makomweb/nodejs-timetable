@@ -4,6 +4,7 @@
   "description": "Provide a timetable as iCal",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Martin Komischke",
