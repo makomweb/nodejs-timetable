@@ -1,6 +1,7 @@
 const fs = require('fs');
 const week = require('./week');
 const helper = require('./helper');
+const block = require('./block');
 
 exports.weekday = function(timetable, index) {
     const startTimes = helper.getNestedObject(timetable, ['BlockStartTimes']);
@@ -8,7 +9,7 @@ exports.weekday = function(timetable, index) {
     const blocks = helper.getNestedObject(day, ['Blocks']);
     const first = week.firstDayOfWeek(new Date(), 1); // now, 0 = Sunday, 1 = Monday is first day of a week
     const date = new Date(first.getFullYear(), first.getMonth(), first.getDate() + index);
-    const blockLength = blockLength(timetable);
+    const blockLength = block.length(timetable);
 
     return blocks.map((block, index, array) => {
 
@@ -26,8 +27,4 @@ exports.weekday = function(timetable, index) {
             summary: subject
         }
     });
-}
-
-exports.blockLength = function(timetable) {
-    return 2700000; // + 45 min
 }
