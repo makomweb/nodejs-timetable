@@ -99,16 +99,16 @@ app.get('/Siemens-Gymnasium-9-C-Woche-B.ical', function (req, res) {
 });
 
 app.get('/Siemens-Gymnasium-9-C.json', function (req, res) {
-  const woche_A = timetable.timetable('Siemens-Gymnasium-9-C-Woche-A.json');
-  const woche_B = timetable.timetable('Siemens-Gymnasium-9-C-Woche-B.json');
-  const json = alternate_table.alternate(new Date(), woche_A, woche_B);
+  const week_A = timetable.timetable('Siemens-Gymnasium-9-C-Woche-A.json');
+  const week_B = timetable.timetable('Siemens-Gymnasium-9-C-Woche-B.json');
+  const json = alternate_table.alternate(new Date(), week_B, week_A);
   res.send(json);
 });
 
 app.get('/Siemens-Gymnasium-9-C.ical', function (req, res) {
-  const woche_A = timetable.timetable('Siemens-Gymnasium-9-C-Woche-A.json');
-  const woche_B = timetable.timetable('Siemens-Gymnasium-9-C-Woche-B.json');
-  const json = alternate_table.alternate(new Date(), woche_A, woche_B);
+  const week_A = timetable.timetable('Siemens-Gymnasium-9-C-Woche-A.json');
+  const week_B = timetable.timetable('Siemens-Gymnasium-9-C-Woche-B.json');
+  const json = alternate_table.alternate(new Date(), week_B, week_A);
   const cal = ical({
     domain: 'emkay',
     prodId: { company: 'emkay.org', product: 'timetable-ical' },
