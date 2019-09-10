@@ -17,7 +17,7 @@ Web | iOS
 
 # Run the web server
 
-`node app/index.js`
+`npm start`
 
 call
 
