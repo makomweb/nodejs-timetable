@@ -3,7 +3,7 @@
 The raw data is stored in JSON files. The NodeJS app is using Express to serve iCal files out of this.
 
 The iCal is created so that only the current week will be filled with the schedule.
-Means if you browse to a different week in you calendar you will not see any schedule.
+Hence if you browse to a different week in your calendar you will not see any schedule.
 
 You can subscribe to the iCal feed in your favorite calendar app to integrate the timeschedule.
 
