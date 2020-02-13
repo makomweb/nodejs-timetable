@@ -1,6 +1,6 @@
 {
   "ID": "Siemens Gymnasium Klasse 9 C Woche B",
-  "StartDate": "August 12, 2019",
+  "StartDate": "Februar 10, 2020",
   "EndDate": "",
   "BlockStartTimes": [
     "08:00:00",
@@ -19,10 +19,7 @@
           "Name": "Sport"
         },
         {
-          "Name": "Musik"
-        },
-        {
-          "Name": "Politische Bildung"
+          "Name": "Kunst"
         }
       ]
     },
@@ -37,6 +34,9 @@
         },
         {
           "Name": "Mathe"
+        },
+        {
+          "Name": "Französisch"
         }
       ]
     },
@@ -47,7 +47,7 @@
           "Name": "Physik/Chemie"
         },
         {
-          "Name": "Englisch"
+          "Name": "Ethik"
         },
         {
           "Name": "Französisch"
@@ -65,9 +65,6 @@
         },
         {
           "Name": "Bio"
-        },
-        {
-          "Name": "WPU: Latein"
         }
       ]
     },

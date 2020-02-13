@@ -1,6 +1,6 @@
 {
   "ID": "Merian Schule Klasse 9.1",
-  "StartDate": "August 5, 2019",
+  "StartDate": "Februar 10, 2020",
   "EndDate": "",
   "BlockStartTimes": [
     "07:50:00",
@@ -17,7 +17,7 @@
       "Name": "Monday",
       "Blocks": [
         {
-          "Name": "Mathe"
+          "Name": "Geschichte"
         },
         {
           "Name": "Mathe"
@@ -33,9 +33,6 @@
         },
         {
           "Name": "Ethik"
-        },
-        {
-          "Name": "Geschichte"
         }
       ]
     },
@@ -61,7 +58,7 @@
           "Name": "Ethik"
         },
         {
-          "Name": "Kunst"
+          "Name": "Geschichte"
         }
       ]
     },
@@ -75,7 +72,7 @@
           "Name": "Physik"
         },
         {
-          "Name": "Geschichte"
+          "Name": "Mathe"
         },
         {
           "Name": "Mathe"
@@ -121,19 +118,22 @@
       "Name": "Friday",
       "Blocks": [
         {
-          "Name": "Klassenleiterstunde"
+          "Name": "Englisch"
         },
         {
           "Name": "Französisch"
         },
         {
-          "Name": "Englisch"
+          "Name": "Kunst"
         },
         {
           "Name": "Deutsch"
         },
         {
           "Name": "Deutsch"
+        },
+        {
+          "Name": "Klassenleiterstunde"
         },
         {
           "Name": "ITG"

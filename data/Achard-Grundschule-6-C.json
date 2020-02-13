@@ -1,6 +1,6 @@
 {
   "ID": "Franz Carl Achard Schule Klasse 6 C",
-  "StartDate": "August 5, 2019",
+  "StartDate": "Februar 10, 2020",
   "EndDate": "",
   "BlockStartTimes": [
     "07:40:00",
@@ -31,7 +31,10 @@
           "Name": "Musik"
         },
         {
-          "Name": "Kunst"
+          "Name": "Pause"
+        },
+        {
+          "Name": "Sport"
         }
       ]
     },
@@ -71,7 +74,7 @@
           "Name": "Deutsch"
         },
         {
-          "Name": "Mathe"
+          "Name": "Kunst"
         },
         {
           "Name": "Musik"
@@ -88,22 +91,22 @@
       "Name": "Thursday",
       "Blocks": [
         {
+          "Name": "Englisch"
+        },
+        {
+          "Name": "Englisch"
+        },
+        {
+          "Name": "Sport"
+        },
+        {
+          "Name": "Sport"
+        },
+        {
           "Name": "Deutsch"
         },
         {
           "Name": "Kunst"
-        },
-        {
-          "Name": "Sport"
-        },
-        {
-          "Name": "Sport"
-        },
-        {
-          "Name": "Englisch"
-        },
-        {
-          "Name": "Englisch"
         }
       ]
     },
@@ -111,7 +114,7 @@
       "Name": "Friday",
       "Blocks": [
         {
-          "Name": "Sport"
+          "Name": "Mathe"
         },
         {
           "Name": "Mathe"
@@ -123,13 +126,10 @@
           "Name": "Englisch"
         },
         {
-          "Name": "Mathe"
-        },
-        {
           "Name": "NAWI"
         },
         {
-          "Name": "Lk"
+          "Name": "NAWI"
         }
       ]
     }
