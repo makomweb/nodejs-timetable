@@ -35,7 +35,8 @@ Run `npm test` to execute all tests.
 # Deploy the App to HEROKU
 
 1. Install Heroku CLI (follow instructions under *Deploy using Heroku Git*)
-2. Open Powershell an navigate into your working directory
-3. type `heroku login`
-4. Follow instructions from Heroku
+2. Open Powershell and navigate into your working directory
+3. Follow the instructions from "Deploy using Heroku Git"
+3. Type `heroku login` to authorize
+4. Follow instructions from Heroku which is usually finalized with `git push heroku master`
 
