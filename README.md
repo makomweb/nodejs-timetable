@@ -32,3 +32,10 @@ Run `npm test` to execute all tests.
 [1]: https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
 [2]: https://www.npmjs.com/package/ical-generator
 
+# Deploy the App to HEROKU
+
+1. Install Heroku CLI (follow instructions under *Deploy using Heroku Git*)
+2. Open Powershell an navigate into your working directory
+3. type `heroku login`
+4. Follow instructions from Heroku
+
